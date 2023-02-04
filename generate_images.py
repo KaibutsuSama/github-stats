@@ -74,7 +74,7 @@ async def generate_languages(s: Stats) -> None:
         lang_list += f"""
 <li style="animation-delay: {i * delay_between}ms;">
 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:{color};"
-viewBox="0 0 12 12" version="1.1" width="12" height="12"><path
+viewBox="0 0 8 8" version="1.1" width="8" height="8"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">{lang}</span>
 <span class="percent">{data.get("prop", 0):0.2f}%</span>
