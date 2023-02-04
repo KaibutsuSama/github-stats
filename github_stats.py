@@ -24,7 +24,7 @@ class Queries(object):
         username: str,
         access_token: str,
         session: aiohttp.ClientSession,
-        max_connections: int = 10,
+        max_connections: int = 30,
     ):
         self.username = username
         self.access_token = access_token
